@@ -25,7 +25,7 @@ function App() {
     setReplyLoading(true);
     setReply([]);
     try {
-      const res = await fetch("http://localhost:5000/reply", {
+      const res = await fetch("https://dmgamechanger.onrender.com/reply", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
